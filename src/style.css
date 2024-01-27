@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+  padding:0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0px 16px;
+  font-weight: 500;
+}
+
+.btn {
+  border: none;
+  padding: 14px 20px;
+  background-color: #996830;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #7c5427;
+}
+
+.spec-text {
+  font-style: italic;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-size: 72px;
+}
+
+.hero__desc {
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.main-image {
+  margin-top: 80px;
+  height: 640px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-slider {
+  width: 100%;
+  position: relative;
+}
+.main-image-container{
+  width: 100%;
+}
+
+
+.get-container {
+}
+
+.get-in-out{
+  width: 120px;
+  position: absolute;
+  border-radius: 50%;
+  height: 120px;
+  top: 40px;
+  background-color: white;
+}
+
+.get-in{
+  width: 110px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  height: 110px;
+  border-radius: 50%;
+  background-color: #2C2C2C;
+}
+
+@media screen and (max-width: 560px) {
+  
+}
